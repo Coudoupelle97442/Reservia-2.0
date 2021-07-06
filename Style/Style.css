@@ -1,0 +1,56 @@
+
+
+
+
+a
+{
+   margin-top: 50px ; 
+   margin-bottom: 30px ;
+   margin-left: 30px; 
+   margin-right: 20px;
+}
+.ancretopleft
+{
+    font-size: 15px;
+}
+
+
+a
+{
+    position: relative;
+    bottom: 40px;
+    left:600px;
+}
+
+
+a:active
+{
+ color: blue;
+}
+
+
+.Trouvez
+{
+    position: relative;
+    bottom:10px;
+    left:10px;
+}
+.Trouvez,h2
+{
+    font-size:20px ;
+    font-weight: bold;
+}
+.Trouvez,p
+{
+    font-size: 15px;
+    font-weight: unset;
+}
+
+
+.logo
+{
+    position: relative;
+    top:10px;
+    left:10px;   
+}
+
