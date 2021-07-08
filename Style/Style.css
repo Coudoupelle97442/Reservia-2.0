@@ -1,56 +1,295 @@
 
 
+/*------police Raleway-------*/
 
-
-a
+@font-face
 {
-   margin-top: 50px ; 
-   margin-bottom: 30px ;
-   margin-left: 30px; 
-   margin-right: 20px;
-}
-.ancretopleft
-{
-    font-size: 15px;
+    font-family: 'Raleway';
+    src: url('static/Raleway-Black.ttf'),
+        url('static/Raleway-BlackItalic.ttf') url('Raleway-VariableFont_wght.ttf') url('Raleway-Italic-VariableFont_wght.ttf')
 }
 
-
-a
+h2,h3,h4,p 
 {
-    position: relative;
-    bottom: 40px;
-    left:600px;
+    font-family: 'Raleway', Arial, Verdana, sans-serif;
 }
 
-
-a:active
+.Trouvez h2 
 {
- color: blue;
+    font-size: 30px;
+    font-weight: bold ;
+}
+.Trouvez p
+{
+font-size:17px ;
+color:black;
 }
 
 
-.Trouvez
+/*----------re-size images---------*/
+
+
+.image1
+
 {
-    position: relative;
-    bottom:10px;
-    left:10px;
+  border:green solid 2px;
+  margin-right:340px; 
+  margin-left:200px;
+  margin-bottom:40px;
 }
-.Trouvez,h2
+.image2
 {
-    font-size:20px ;
-    font-weight: bold;
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;
 }
-.Trouvez,p
+.image3
 {
-    font-size: 15px;
-    font-weight: unset;
+    border:green solid 2px;
+  margin-right:340px; 
+  margin-left:200px;
+  margin-bottom:40px;
+}
+.image4
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;  
+}
+.image5
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px; 
+    margin-bottom:40px; 
+}
+.image6
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;  
+}
+.image7
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;  
+}
+.image8
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;  
+}
+.image9
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;  
+}
+.image10
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;  
+}
+.image11
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;     
+}
+.image12
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;     
+}
+.image13
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;    
+}
+.image14
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;    
+}
+.image15
+{
+    border:green solid 2px;
+    margin-right:340px; 
+    margin-left:200px;
+    margin-bottom:40px;    
+}
+/*--------my div border----------*/
+
+
+
+
+
+
+/*Centrer le contenu de <main>*/
+
+
+
+
+.conteneur
+{
+ max-width: 1350px;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ }
+
+ /*--------- bordure de repère------*/
+
+
+
+ .ancretopright
+{
+   border: solid purple 2px;
+   margin-top: 10px;
+   margin-bottom:10px ;
+   margin-left: 10px;
+   margin-right:10px ;
 }
 
 
-.logo
-{
-    position: relative;
-    top:10px;
-    left:10px;   
+
+ .conteneur
+ {
+   border: black solid 3px;
+   
+ }
+
+
+#logo
+
+ {
+     border:black solid 2px;
+     margin-top: 5px;
+     margin-bottom:10px ;
+     margin-left: 5px;
+     margin-right:5px ;
+     height: 50px;
+     width:100px;
 }
+.onglethébergement
+{
+    border:solid black 2px;
+    margin-left: 20px;
+    margin-right:20px
+
+}
+.ongletdegauche
+{
+    border: maroon solid 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right:50px;   
+}
+.ongletdedroite
+{
+    border: maroon solid 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right:50px;
+    
+}
+.ongletactivités
+
+{
+    border: blue solid 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right:50px;
+    
+}
+.ongletapropos
+{
+    border: blue solid 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right:50px;  
+}
+.ongletnoshébergements
+{
+    border: blue solid 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.ongletassistance
+{
+    border: blue solid 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+.Titre-principal
+{
+    border:green solid 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+/*----------mon logo------------*/
+
+
+ 
+
+
+
+
+
+
+
+
+ /*-----------mes ancres en haut à droite----------*/
+
+
+
+
+
+
+
+ /*----------------flexbox-----------------*/
+ .ancretopright123
+ {
+     display: flex;
+     flex-direction: row;
+     alir
+ }
+
+
+ 
+ 
+
+
+
+
+
 
